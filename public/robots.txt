@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: 
+
+# Firebase Hosting
+User-agent: *
+Allow: /
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://your-app.web.app/sitemap.xml

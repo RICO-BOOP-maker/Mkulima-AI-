@@ -1,0 +1,86 @@
+{
+  "name": "Mkulima AI - Smart Agricultural Assistant",
+  "short_name": "Mkulima AI",
+  "description": "AI-powered agricultural assistant for farmers in Kenya and East Africa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5A5A40",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["agriculture", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot-540x720.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshot-1080x1920.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ask about Maize",
+      "short_name": "Maize Tips",
+      "description": "Get advice about maize farming",
+      "url": "/?preset=maize",
+      "icons": [
+        {
+          "src": "/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Pest Management",
+      "short_name": "Pests",
+      "description": "Learn about pest control",
+      "url": "/?preset=pests",
+      "icons": [
+        {
+          "src": "/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
